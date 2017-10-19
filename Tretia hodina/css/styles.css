@@ -1,0 +1,71 @@
+html,
+body {
+	height: 100%;
+	color:red;
+}
+/* nepouzivame * {
+	border: 1px solid red !important; */
+}
+body {
+	background-color: rgb(153, 204, 255);
+}
+
+div {
+	border: 1px solid navy;
+}
+
+span {
+	border: 1px solid blue;
+}
+
+.list {
+	border: 1px solid black;
+	background-color: pink;
+}
+
+.list-specialny {
+background-color: aquamarine;
+}
+
+.list-specialny li {
+	display: inline-block;
+}
+
+p {
+	font-size: 30px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+p.orange {
+	color: orange;
+}
+
+.orange {
+	color: black /* nikdy nepouzivat */ !important;
+}
+ 
+
+p.jancibacinastajlujmito {
+	background-color: lightgrey;
+}
+
+#intro {
+	color: red;
+}
+
+a[title]:focus {
+	color: darkgreen;
+	font-size: 50px
+}
+div > strong {
+	border: 1px solid red;
+}
+
+p:hover {
+	font-weight: bold;
+	font-family: cursive;
+	text-decoration: underline;
+}
