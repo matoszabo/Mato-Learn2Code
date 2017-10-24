@@ -1,5 +1,48 @@
 html,
 body {
 	height: 100%;
-	color:red;
+	color:black;
 } 
+body {
+	font-family:sans-serif;
+}
+h1 {
+	background-color: red;
+}
+
+div, h1 {
+	font-weight: bold;
+}
+
+div p {
+	border: 1px solid green;
+}
+
+div + p {
+	border: 1px solid pink; 
+}
+
+.firstclass {
+	background-color: yellow;
+}
+
+.hometown {
+	background-color: rgb(255, 255, 107);
+}
+
+.center {
+	text-align: center;
+	color: red;
+}
+
+.large {
+	font-size: 30px;
+}
+
+.link	{
+	style display: inline-block;
+	text-decoration: none;
+}
+.link:hover {
+	background-color: red;
+	text-decoration: underline;
