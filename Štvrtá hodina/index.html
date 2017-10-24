@@ -6,11 +6,11 @@
 	<!-- chartset je atribut, ktory ulahcuje definovat znakovu sadu -->
 	<meta charset="utf-8">
 	<!-- nazov mojej stranky, ktory bude zobrazeny v prehliadaci na liste -->
-	<title>Tretia domáca úloha</title>
+	<title>Štvrtá hodina</title>
 	<!-- description definuje popis vasej webovej stranky -->
-	<meta name="description" content="Toto je riešenie tretej domácaej úlohy">
+	<meta name="description" content="Toto je štvrtá hodina">
 	<!-- author definuje kto tuto web stranku vytvoril -->
-	<meta name="author" content="lukas ja">
+	<meta name="author" content="matoszabo ja">
 	<!-- keywords definujete podla akych slov vas ma ujo google najst -->
 	<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
 	<!-- 	Núti prehliadač vykresliť štandardy konkrétnej verzie staci IE edge-->
@@ -24,9 +24,10 @@
 	<!-- http://meyerweb.com/eric/tools/css/reset/ zabezpecime ze css bude rovnake na kazdom prehliadaci -->
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<!-- rel atribut definuje o aky file ide, stylesheet sa da prelozit ako zoznam kaskadovych stilov a cele je to obalene tagom link ktory hovori ze ide o linku teda linkujem css file do HTMLka -->
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- do style mozete napisat svoj style ak potrebujete nieco skor zobrazit pred tym ked sa nacita cela vasa stranka -->
 	<style>
+	/*tu sa píše keď je pomalý internet*/
 </style>
 <!-- zabezpecuje to ze HTML5 tagy budu fungovat pre IE9 a nizsie prehliadace -->
 
@@ -39,33 +40,34 @@
 	<![endif]-->
 </head>
 <!-- do body pisete kostru stranky -->
-<body>
-	<header>
-		<h1>Toto je html tag H1</h1>
-	</header>
-
-	<div class="firstclass"> 
-		<p>Volám sa Donald</p>
-		<p>Žijem v Káčerove</p>
+<body> 
+<div class="main-content">
+	<div class="main-content-wrapper">
+		<p class="title-small color-opacity50">Toto je small title</p>
+<p class="title-small">Toto je small title</p>
+<div class="holder-box">
+	<img src="images/kacicka.png" alt="toto je obrazok" class="wrapper-img">
+<!-- 	<p>holder box</p>	 -->
+	<br>
+</div>
+<div class="holder-box-special">
+	<div class="holder-box-first">aaaaaaa</div>
+	<div class="holder-box-second">bbbbbbb</div>
+</div>
+<div class="holder-list">
+	<ul class="list-flex">
+		<li class="list-flex-li"><a href="#" class="list-flex-li-a">aaaaaaa</a></li>
+		<li class="list-flex-li"><a href="#" class="list-flex-li-a">aaaaaaa</a></li>
+		<li class="list-flex-li"><a href="#" class="list-flex-li-a">aaaaaaa</a></li>
+		<li class="list-flex-li"><a href="#" class="list-flex-li-a">aaaaaaa</a></li>
+		<li class="list-flex-li"><a href="#" class="list-flex-li-a">aaaaaaa</a></li>
+		<li class="list-flex-li"><a href="#" class="list-flex-li-a">aaaaaaa</a></li>
+		<!-- <li class="list-li">druhý riadok zoznamu</li>
+		<li class="list-li">tretí riadok zoznamu</li>
+		<li class="list-li">štvrtý riadok zoznamu</li> -->
+	</ul>
+</div>
 	</div>
-
-	<p>Mojou najlepšou kamoškou je Minnie</p>
-
-	<hr>
-
-	<p class="hometown">Volám sa Donald</p>
-	<p class="hometown large">Žijem v Káčerove</p>
-	<p class="center large">Voláme sa Hui, Lui a Dui</p>
-	<p class="hometown">Mojou najlepšou kamoškou je Minnie</p>
-
-
-	<hr>
-
-	<h1>Tento nadpis nie je ovplyvnený</h1>
-	<p class="center">Tento odsek je červenou a je vycentrovaný</p>
-	<p class="center large">Tento odsek je červenou, je vycentrovaný a má veľký font</p>
-
-	<a href="#" title="Super Duper TEXT" class="link">Super Duper TEXT</a>
+</div>
 </body>
 
-</html>
